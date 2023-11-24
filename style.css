@@ -1,0 +1,15 @@
+body{
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+   width: 80%;
+   filter: url(#custom); 
+}
+svg{
+    position: absolute;
+    left: 0;
+}
